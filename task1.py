@@ -18,12 +18,3 @@ def solution(data, n):
                 print(key)
                 data.remove(key)
     return data
-
-def main():
-    data = [1, 2, 2, 3, 3, 3, 4, 5, 5]
-    res = solution(data, 1)
-    print(res)
-
-
-if __name__ == "__main__":
-    main()
