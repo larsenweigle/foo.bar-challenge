@@ -15,6 +15,5 @@ def solution(data, n):
         num_jobs = busy_ids.get(key)
         if num_jobs > n:
             for i in range(num_jobs):
-                print(key)
                 data.remove(key)
     return data
